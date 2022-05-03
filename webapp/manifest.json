@@ -33,6 +33,21 @@
                     "localUri": "annotations/annotation.xml"
                 }
             }
+        },
+        "crossNavigation": {
+            "inbounds": {
+                "sap-fe-demo-travellist-inbound": {
+                    "signature": {
+                        "parameters": {},
+                        "additionalParameters": "allowed"
+                    },
+                    "semanticObject": "Travel",
+                    "action": "manage",
+                    "title": "{{flpTitle}}",
+                    "subTitle": "{{flpSubtitle}}",
+                    "icon": ""
+                }
+            }
         }
     },
     "sap.ui": {
@@ -180,5 +195,9 @@
     "sap.fiori": {
         "registrationIds": [],
         "archeType": "transactional"
+    },
+    "sap.cloud": {
+        "public": true,
+        "service": "sap-fe-demo-travellist"
     }
 }
